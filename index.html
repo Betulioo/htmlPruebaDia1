@@ -6,8 +6,255 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HOLA MUNDO</h1>
-    <p>Esto es un parrafo</p>
-    <p>Parrafo 2</p>
+<header>
+    <!-- Barra de navegacion, ocultar caption -->
+    <figure id="logo">
+        <img src="https://i.pinimg.com/originals/72/24/12/722412b2f9e3e84bfa376a8271c34676.png" width="200" alt="logo de la cafeteria">
+        <figcaption>logo de la cafeteria</figcaption>
+    </figure>
+    <nav>
+        <ul id="nav-bar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#concepto">CONCEPTO</a></li>
+            <li><a href="#fotos">FOTOS</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#reservas">RESERVAS</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- pagina principal, agregar css -->
+    <section  id="home">
+        <hr>
+     <div>
+        <p><span>DESCUBRE</span></p>
+        <h1><strong>MOZZA BAR</strong></h1>
+        <p><span>WE ARE OPEN</span></p>
+        <hr>
+     </div>
+    </section>
+
+    <!-- segunda parte con el concepto, agregar css, -->
+    <section id="concepto">
+        <div>
+        <h3>CONCEPTO</h3>
+        <P><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</span></P>
+        </div>
+        <hr>
+    </section>
+
+    <!-- tercera section con las fotos, ocultar caption-->
+    <section id="fotos">
+        <figure>           
+            <img src="https://tse2.mm.bing.net/th?id=OIP.F0BkaSOdzAV3_nYfY1BusgAAAA&pid=Api" alt="sala restaurante">
+            <figcaption>sala restaurante</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.xMtKBvz9PeBuZIyzScpglQAAAA&pid=Api" alt="sala restaurante">
+            <figcaption>sala restaurante</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.cHE34xMz-Lhzi5yBIuo9QAAAAA&pid=Api" alt="sala restaurante">
+            <figcaption>sala restaurante</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.49fAq7oNZGJKrWdMH0TBZgAAAA&pid=Api" alt="sala restaurante">
+            <figcaption>sala restaurante</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Zr0LcTGgiHEuQyQMcPl0XwAAAA&pid=Api" alt="sala restaurante">
+            <figcaption>sala restaurante</figcaption>
+        </figure>
+        <hr>
+    </section>
+
+    <!-- Cuarta section dedicada a la carta -->
+    <section id="menu">
+        <table border="1">
+            <tbody>
+            <caption><h3>CARTA</h3></caption>
+            <tr>
+                <th>DULCES</th>
+                <th>PRECIO</th>
+                <th>SALADOS</th>
+                <th>PRECIO</th>
+            </tr>
+            <tr>
+                <th>croissant</th>
+                <th>1.40</th>
+                <th>tostada de pan rustico</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>croissant a la plancha</th>
+                <th>1.40</th>
+                <th>tostada de pan rustico con jamon iberico o pavo</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>napolitana de chocolate</th>
+                <th>1.40</th>
+                <th>tostada de pan rustico con aguacate</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>tostada francesa con helado de vainilla y frutos rojos</th>
+                <th>1.40</th>
+                <th>sandwich o croissant de pavo con queso</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>tortitas con nata y sirope de chocolate</th>
+                <th>1.40</th>
+                <th>sanwicht o croissant de jamon york</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>tarta carrot cake</th>
+                <th>1.40</th>
+                <th>tostada de pan rustico con huevos</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>tarta red velvet</th>
+                <th>1.40</th>
+                <th>tostada de pan rustico con bacon</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>tarta doble chocolate</th>
+                <th>1.40</th>
+                <th>huevos revueltos</th>
+                <th>1.80</th>
+            </tr>
+            <tr>
+                <th>crepes con chocolate</th>
+                <th>1.40</th>
+                <th>pincho de tortilla</th>
+                <th>1.80</th>
+            </tr>
+        </tbody>
+
+        </table>
+        <a href="">VER LA CARTA DE DESAYUNOS</a>
+        <hr>
+    </section>
+    <!-- quinta section dedicada al formulario para las reservas-->
+    <section id="reservas">
+        <form action="">
+            <div>
+                
+                <fieldset id="reseras">
+                    <legend><h3>RESERVAS</h3></legend>
+                <label for="personas">Personas</label>
+                <select name="personas" id="personas">
+                   <option value="2">2 personas</option> 
+                   <option value="2">3+ personas</option> 
+                   <option value="2">6+ personas</option> 
+                   <option value="2">10 personas</option> 
+                </select>
+                
+                <label for="hora">hora</label>
+                <select name="hora" id="hora">
+                    <option value="1pm">1:00 pm</option>
+                    <option value="130pm">1:30 pm</option>
+                    <option value="2pm">2:00pm</option>
+                    <option value="230pm">2:30pm</option>
+                    <option value="3pm">3:00pm</option>
+                </select>
+                <br><br>
+                <label for="tipomesa">Tipo de mesa</label>
+                <select name="tipoMesa" id="tipoMesa">
+                    <option value="">Terraza</option>
+                    <option value="">Sala</option>
+                    <option value="">Barra</option>
+                </select>
+                <br><br>                
+                <label for="reservar"></label>
+                <input type="submit" value="reservar">
+            </fieldset>
+                <br>
+                <P><span>Si no encuentra disponibilidad, apuntese en la lista de espera.</span></P>
+            <div><a href="">Lista de espera</a></div><br>
+            <div><a href="">Solicitud de grupo</a></div>
+            </div>
+        </form>
+        <br>
+        <h2>MOZZABAR</h2>
+        <h3>FOOD & DRINKS</h3>
+        <p>Conde de peñalver 64</p>
+        <p>28006 - Madrid</p>
+        <p>Abrimos de lunes a domingo</p>
+        <p>de 07:30 a 1:30</p>
+    </section>
+    <hr>
+    <section id="blog">
+        <h3>BLOG</h3>
+        <br>
+        <a href=""><img src="https://tse4.mm.bing.net/th?id=OIP.Wt-yNTphCPxeqxPJCGN9AAAAAA&pid=Api" alt=""></a>
+        <br>
+        <a href=""><img src="https://tse2.mm.bing.net/th?id=OIP.nqMMSpjNbFzQ47bIuQWl4wAAAA&pid=Api" alt=""></a>
+        <br>
+        <a href=""><img src="https://tse3.mm.bing.net/th?id=OIP.DLIMiKvST4tVit_sos0pqgAAAA&pid=Api" alt=""></a>
+        <br>
+        <div><a href="">Ver todas las entradas</a></div>
+    </section>
+    <hr>
+</main>
+<!-- Termina el main, y vamos con nuestra ultima section dedicada a contacto en el footer-->
+<footer>
+    <section id="contacto">
+        <h2>MOZZABAR</h2>
+
+        <figure id="logo">
+            <img src="https://i.pinimg.com/originals/72/24/12/722412b2f9e3e84bfa376a8271c34676.png" width="130" alt="logo de la cafeteria">
+            <figcaption>logo de la cafeteria</figcaption>
+        </figure>
+        <h3>FOOD & DRINKS</h3>
+        <br>
+        <figure id="iconoDireccion">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.6qRPKs08hqJM1NbPxa_tKgAAAA&pid=Api" width="80" alt="direccion">
+            <figcaption> 
+                <p>Conde de peñalver 64</p>
+                <p>28006 - Madrid</p>
+            </figcaption>
+        </figure>
+        <figure id="iconoTelefono">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.EEoQ0eZy4Mjn2nzA-PAHZAAAAA&pid=Api" width="80" alt="logo de la cafeteria">
+            <figcaption><p>910 582 327</p></figcaption>
+        </figure>
+        <figure id="inconoMail">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.qucvpZUFqS0_zKGjjELH_AAAAA&pid=Api" width="80" alt="logo de la cafeteria">
+            <figcaption><p>hola@mozzabar.es</p></figcaption>
+        </figure>
+        <hr>
+        <h3>SIGUENOS</h3>
+       <div><a href="">FACEBOOK</a></div>
+       <br>
+       <div><a href="">INSTAGRAM</a></div>
+       <div>
+        <h4>ENLACES DE INTERES</h4>
+        <a href="">Aviso legal</a>
+        <a href="">Cookies</a>
+       </div>
+       <div>
+        <h4>HORARIOS</h4>
+        <p>Lunes a Domingo</p>
+        <p>07:30 - 01:30</p>
+       </div>
+       <div>
+        <h4>CONTACTO</h4>
+        <p>c/ conde de peñalver 64</p>
+        <p>28006 - Madrid</p>
+        <p>910 582 327</p>
+        <p>hola@mozzabar.es</p>
+       </div>
+
+       <div><span>todos los derechos reservados</span></div>
+    </section>
+
+</footer>
 </body>
 </html>
